@@ -114,11 +114,5 @@ docs/                    Design decisions and interview walkthrough
 
 The GitHub Actions workflows run tests and TypeScript/build checks. The Pages workflow uploads `dist` and deploys it when GitHub Pages is configured with **GitHub Actions** as its source. Vite uses relative asset paths so the build works under a repository subpath. No secrets are required for the public demo.
 
-## Provenance and limitations
 
-- Generated with seed `9152026`; fixed observation date `2026-09-15`.
-- All candidate IDs, agencies, demand, hires and costs are fictional. Synthetic correlations are not findings about real agencies or the staffing market.
-- This is an independent portfolio exercise inspired by common staffing analytics requirements, not an implementation of an employer's proprietary system.
-- Browser database startup downloads a WebAssembly engine. This demo favours reproducibility and an accessible live preview over production bundle size.
-- No login, live refresh, production backend, permissions or real operational integrations are included.
-- Created with AI coding assistance. Project ownership and interview claims should reflect the parts the author has reviewed, understood and extended personally.
+
