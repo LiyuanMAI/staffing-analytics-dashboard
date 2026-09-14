@@ -1,0 +1,22 @@
+{
+  "classification": "synthetic",
+  "seed": 9152026,
+  "asOf": "2026-09-15",
+  "currency": "EUR",
+  "period": [
+    "2026-01-01",
+    "2026-09-15"
+  ],
+  "generator": "src/data/generate.ts",
+  "counts": {
+    "requests": 180,
+    "hires": 477,
+    "costs": 657
+  },
+  "limitations": [
+    "Not actual staffing performance",
+    "One agency per requisition",
+    "No cancellations or replacement hires",
+    "No production authentication"
+  ]
+}
